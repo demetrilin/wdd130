@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Poppins&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+    background-color: #f7f7f7;
+  }
+  
+  header {
+    background-color: #eefb04;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(4, 4, 4);
+    font-size: 16px;
+    margin: 0 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  
+  #book {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 60px;
+  }
+  
+  #book-img {
+    width: 100%;
+  }
+  
+  .home-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .button-box {
+    margin-top: 20px;
+  }
+  
+  .Post {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #d72323;
+    color: #fff;
+    font-size: 16px;}
+  footer {
+    background-color: #f9f9f9;
+    text-align: center;}
+
+    .home-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 20px;
+        padding: 20px;
+      }
+      
+      .card {
+        position: relative;
+        overflow: hidden;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      
+      .card img {
+        max-width: 100%;
+        height: auto;
+      }
+      
+      .card h2 {
+        font-size: 24px;
+        margin: 10px;
+      }
+      
+      .card .btn {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        background-color: #f00;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 18px;
+        transition: background-color 0.3s ease;
+      }
+      
+      .card .btn:hover {
+        background-color: #fff;
+        color: #f00;
+      }
